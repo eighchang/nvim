@@ -3,7 +3,7 @@ vim.o.encofing = 'utf-8'
 vim.scriptencoding = 'utf-8'
 
 -- visual
-vim.o.ambiwidth = 'double'
+vim.o.ambiwidth = 'single'
 vim.o.tabstop = 2
 vim.o.softtabstop = 2
 vim.o.shiftwidth = 2
@@ -30,6 +30,11 @@ vim.o.ttimeoutlen = 50
 
 vim.o.undofile = true
 vim.o.undodir = vim.fn.stdpath('cache') .. '/undo'
+
+-- listchars
+vim.opt.list = true
+vim.opt.listchars:append "space:⋅"
+vim.opt.listchars:append "eol:↴"
 
 -- Highlight on yank
 vim.cmd([[
