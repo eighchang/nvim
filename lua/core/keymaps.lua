@@ -24,4 +24,4 @@ keymap.set('n', "<C-l>", "<C-w><C-l>")
 vim.api.nvim_set_keymap('n', '<Esc><Esc>', ':nohl<CR>', { noremap = true, silent = true})
 
 -- plugin keymaps
-keymap.set("n", "<leader>e", ":Neotree<CR>")
+keymap.set("n", "<leader>e", ":Neotree reveal toggle<CR>")
