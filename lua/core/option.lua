@@ -1,5 +1,5 @@
 -- encoding
-vim.o.encofing = 'utf-8'
+vim.o.Pencofing = 'utf-8'
 vim.scriptencoding = 'utf-8'
 
 -- visual
